@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Password gate -->
+  <section id="gate">
+    <div class="gate-box">
+      <h1 class="glitch">HIV</h1>
+      <p class="sub">members only</p>
+      <form id="gate-form" autocomplete="off">
+        <input type="password" id="pw" placeholder="enter password" required>
+        <button type="submit">Enter</button>
+      </form>
+      <p id="error" class="error"></p>
+    </div>
+  </section>
+
+  <!-- Main site (hidden until unlocked) -->
+  <main id="site" class="hidden">
+    <header>
+      <h1 class="glitch">HIV</h1>
+      <p class="sub">what happens in HIV stays in HIV</p>
+      <button id="lock">Lock</button>
+    </header>
+
+    <section class="announcement">
+      <span class="badge">📢 Announcement</span>
+      <h2>🎁 Free gifts!</h2>
+      <p>Free gifts for sure. Contact <strong>Nuhaan</strong> to get yours.</p>
+    </section>
+
+    <section>
+      <h2>Members</h2>
+      <div class="members">
+        <div class="card"><span class="avatar a1">J</span><h3>Jawad</h3><p class="role">Founder</p></div>
+        <div class="card"><span class="avatar a2">N</span><h3>Nuhaan</h3><p class="role">Co-Founder</p></div>
+        <div class="card"><span class="avatar a3">A</span><h3>Auritro</h3><p class="role">Second Co-Founder</p></div>
+        <div class="card"><span class="avatar a4">Z</span><h3>Zayd</h3><p class="role">CEO</p></div>
+        <div class="card"><span class="avatar a5">M</span><h3>Mashoor</h3><p class="role">Member</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>The Rules</h2>
+      <ol class="rules">
+        <li>Never talk about HIV in public.</li>
+        <li>No new member gets added without permission from the heads.</li>
+        <li>Keep the password to yourself.</li>
+      </ol>
+    </section>
+
+    <footer>HIV &copy; members only</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
